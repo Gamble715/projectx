@@ -72,7 +72,7 @@ Projectx::Application.configure do
   config.paperclip_defaults = {
     :storage => :s3,
     :s3_credentials => {
-      :bucket => "railsresume",
+      :bucket => "crh-cs",
       :access_key_id => "AKIAIHLTWJ6GHXTGHY5A",
       :secret_access_key => "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"
     }
